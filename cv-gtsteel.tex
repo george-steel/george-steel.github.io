@@ -1,0 +1,140 @@
+\documentclass[10pt,letterpaper,sans]{moderncv}   
+
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\usepackage{xunicode}
+\usepackage{xcolor}
+\usepackage[tt=false]{libertine} %set font
+
+\definecolor{myblue}{cmyk}{1,0.4,0,0.2}
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+
+%\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\definecolor{color0}{cmyk}{0,0,0,1}% black
+\definecolor{color1}{cmyk}{1,0,1,0.2}% light blue
+\definecolor{color2}{cmyk}{1,0.4,0,0.2}% dark grey
+
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% adjust the page margins
+\usepackage[margin=6pc,letterpaper,top=4pc,left=4pc,bottom=5pc]{geometry}
+\setlength{\hintscolumnwidth}{5pc}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\sloppy
+
+\usepackage{url}
+
+% personal data
+\firstname{George}
+\familyname{Steel}
+%\title{Resumé}                          % optional, remove / comment the line if not wanted
+\address{14 Cypress Ct.}{Aurora, ON, L4G 6S8}    % optional, remove / comment the line if not wanted
+\phone{647-771-5414}                     % optional, remove / comment the line if not wanted
+\email{george.steel@gmail.com}                          % optional, remove / comment the line if not wanted
+\social[github]{github.com/george-steel}
+
+\pretolerance=10000
+\tolerance=2000 
+\emergencystretch=10pt
+
+\begin{document}
+\makecvtitle
+
+\vspace{-1.5pc}
+%\raggedright
+\sloppy
+
+\section{Highlights of Qualifications}
+\cvlistitem{Experience across many different aspects of computer science including Web Development, Machine Learning, Functional Reactive Programming, Embedded Systems, Android App Development, Databases, UI Design, Digital Typesetting, and Image Processing.}
+\cvlistitem{Strong background in the underlying mathematics of computing including the areas of Algebra, Category Theory, Foundational Logic, Theory of Computation, Algorithm Analysis, Numerical Analysis, Dynamical Systems, and Game Theory.}
+\cvlistitem{Familiarity with Haskell, JavaScript, C, C++, Python, SQL, and \TeX.}
+
+
+\section{Education}
+
+\cventry{2010--2016}{University of Toronto}{Hon.\ B.\,Sc.\ in Mathematics}{}{}{\begin{itemize}
+\item Minors in Computer Science and Biology.
+\item Graduated with High Distinction (GPA 3.9).
+\item Recipient of the George Roderick Fraser Scholarship in Mathematics for four years.
+%\item Recent CS courses include software design (taught using Java and the Android platform), systems programming, and theory of computation.
+\end{itemize}}
+
+%\cventry{2005--2010}{Completed Aurora High School}{Completed Grade 12 concentrating in Maths and Sciences}{}{}{\begin{itemize}
+%\item Received straight A+ in grade 12
+%\item Finalist in POPTOR (U of T physics contest) in 2009, 2010.
+%\item 3th place nationally in Chem 13 News contest (Waterloo) in 2010. 8th place in 2009.
+%\item 3rd place nationally in Avogadro chemistry contest (Waterloo) in 2008.
+%\item 1st place nationally in Canadian Computing Competition, Junior devision, 2007.
+%\end{itemize}}
+
+\section{Employment History}
+
+\cventry{Nov 2017\,--\\Present}{Full-stack Software Developer}{Satsuma Labs}{}{}{\begin{itemize}
+\item Created a prototype mobile application using a Haskell backend and a React-Native frontend.
+\item Developed a number of open-source libraries furthering the Haskell web service and react-native ecosystems.\\
+(Available at \url{https://github.com/SatsumaLabs})
+\end{itemize}}
+
+\cventry{May 2016\,--\\May 2017}{Software Developer}{Peter Jurgec}{Linguistics, University of Toronto}{}{\begin{itemize}
+\item Created browser-based educational software currently used in introductory phonology courses.\\
+(Available at \url{http://phonology.us/})
+\item Rewrote and further developed a research tool for analyzing relative frequency of sound patterns. This involved finite automata theory and maximum entropy machine learning.\\
+(Available at \mbox{\url{https://github.com/george-steel/maxent-learner}})
+\end{itemize}}
+
+\cventry{Sept 2014\,--\\May 2016}{Private tutoring}{}{}{}{
+Helped a student overcome her difficulties and pass multiple specialist-level math courses she had failed on her previous attempts.}
+
+\cventry{Sept 2013\,--\\Mar 2014}{IT Assistant}{ENAGB Youth Program}{Native Canadian Centre of Toronto}{}{
+Created a responsive website for the ENAGB program (featuring a dynamic events calendar) along with a variety of promotional materials (posters, brochures, business cards, etc.) for the program.}
+
+\cventry{Summer 2011,\\2012}{Summer Research Assistant}{Gilbert Walker}{Chemistry, University of Toronto}{}{\begin{itemize}
+\item Performed spectroscopy and microscopy supporting research into creating nanoparticle based markers for medical diagnostic use. 
+\item Developed a new spectrographic method for determining the shapes of sub-wavelength gold nanoparticles with much higher sensitivity than previously attained.
+%\item Acquired WHMIS and laser safety training.
+\end{itemize}}
+
+\cventry{Summer 2010}{Software Developer}{Kerr Vayne Systems}{}{}{
+Created a web application to stream real-time data for schedule display in a broadcast automation system.}
+
+%\cventry{Sept 2009--Jan 2010}{Intern}{Zymurgy Systems Inc.}{}{}{\begin{itemize}
+%\item Worked on further developing an existing web content management system and creating a new project.
+%\item Learned the basics of the HTTP protocol and PHP/HTML/AJAX/JQuery devellopment.
+%\end{itemize}}
+
+
+\section{Community Involvement}
+
+%\cventry{2013, 2014}{Participant}{Mother Earth Water Walks}{}{}{
+%Assisted in a campaign raising awareness of the issues threatening the Great Lakes and Lake Simcoe.}
+
+\cventry{Spring 2013}{Intern}{Teaching Drum Outdoor School}{}{}{\begin{itemize}
+\item Assisted with several outdoor projects including the spring leek harvest and repairing several buildings.
+\item Set up and built equipment for a recording studio and CD production operation.
+\item Completed all design and production work for a CD release.
+\end{itemize}}
+
+\cventry{2012--2013}{Founding Member of Advisory Council}{ENAGB Youth Program}{Native Canadian Centre of Toronto}{}{
+Helped to guide the formation of a new mental health program dedicated to serving Native youth in Toronto, which I stayed involved with for many years afterwards.}
+
+
+% \cventry{2007--2010}{Stage Engineer}{Aurora High School Drama Club and other school events}{}{}{
+% \begin{itemize}
+% \item Facilitated a wide variety of acts.
+% \item Ran and repaired sound and light equipment for plays and concerts.
+% \item Dealt with logistical crises and improvising solutions to keep the show going.
+% \item Helped to organize school concerts in 2007 and 2010.
+% \item Filled in for missing actors during rehearsals and once during a show.
+% \end{itemize}}
+% \cventry{2006--2010}{Founding member}{Aurora High School Robotics Club}{}{}{
+% \begin{itemize}
+% \item Won the Robofest regional championships in 2008, 2009, 2010, sending us to the World championships. 4th place in World finals in 2010.
+% \item Mentored the younger students (who had no prior experience) into their own winning team.
+% \end{itemize}}
+% \cvitem{2006--2010}{Set up, maintained, and repaired computer equipment for Aurora High School.}
+% \cvitem{2005--2010}{Assisted Special Needs class at Aurora High School.}
+
+
+\end{document}
