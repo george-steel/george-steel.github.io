@@ -67,14 +67,16 @@
 %\item Finalist in POPTOR (U of T physics contest) in 2009, 2010.
 %\item 3th place nationally in Chem 13 News contest (Waterloo) in 2010. 8th place in 2009.
 %\item 3rd place nationally in Avogadro chemistry contest (Waterloo) in 2008.
-%\item 1st place nationally in Canadian Computing Competition, Junior devision, 2007.
+%\item 1st place nationally in Canadian Computing Competition, Junior division, 2007.
 %\end{itemize}}
 
 \section{Employment History}
 
 \cventry{Jun 2019\,--\\Nov 2020}{Software Developer}{Chrome Animations}{Google Canada}{}{\begin{itemize}
 \item Helped complete and launch the WebAnimations API, giving a unified script interface to all declarative animations.
+\item Contributed to the WebAnimations spec (including WPT tests) allowing the creation and manipulation of animations targeting pseudo-elements.
 \item Numerous bugfixes and optimizations including allowing percentage transform animations (sidebars and some popups) to run off-thread, reducing jank across the internet.
+\item Contributions listed at \url{https://chromium-review.googlesource.com/q/owner:gtsteel@chromium.org}
 \end{itemize}}
 
 \cventry{Nov 2017\,--\\Feb 2019}{Full-stack Software Developer}{Satsuma Labs}{}{}{\begin{itemize}
@@ -84,13 +86,12 @@
 \end{itemize}}
 
 \cventry{May 2016\,--\\May 2017}{Software Developer}{Peter Jurgec}{Linguistics, University of Toronto}{}{\begin{itemize}
-\item Created browser-based educational software used in introductory phonology courses (\url{http://phonology.us/}).
-\item Rewrote and further developed a research tool for analyzing the relative frequency of sound patterns. This involved finite automata and maximum entropy machine learning.\\
-(Available at \mbox{\url{https://github.com/george-steel/maxent-learner}})
+\item Created browser-based educational software used in introductory phonology courses.
+\item Rewrote and further developed a research tool for analyzing the relative frequency of sound patterns. This involved finite automata and maximum entropy machine learning.
 \end{itemize}}
 
-\cventry{Sept 2014\,--\\May 2016}{Private tutoring}{}{}{}{
-Helped a student overcome her difficulties and pass multiple specialist-level math courses she had failed on her previous attempts.}
+% \cventry{Sept 2014\,--\\May 2016}{Private tutoring}{}{}{}{
+% Helped a student overcome her difficulties and pass multiple specialist-level math courses she had failed on her previous attempts.}
 
 \cventry{Sept 2013\,--\\Mar 2014}{IT Assistant}{ENAGB Youth Program}{Native Canadian Centre of Toronto}{}{
 Created a responsive website for the ENAGB program (featuring a dynamic events calendar) along with a variety of promotional materials (posters, brochures, business cards, etc.) for the program.}
@@ -118,10 +119,12 @@ Created a web application to stream real-time data for schedule display in a bro
 % \cventry{2012--2013}{Founding Member of Advisory Council}{ENAGB Youth Program}{Native Canadian Centre of Toronto}{}{
 % Helped to guide the formation of a new mental health program dedicated to serving Native youth in Toronto, which I stayed involved with for many years afterwards.}
 
+
+
 \section{Releases and Publications}
 
-\cventry{2019}{persistent-spatial}{}{}{\url{https://github.com/SatsumaLabs/persistent-spatial}}{
-    A type for storing and indexing geographic coordinates which can be used with any database which supports Word64.
+\cventry{2019}{persistent-spatial}{}{}{\url{https://hackage.haskell.org/package/persistent-spatial}}{
+    A structure for storing and indexing geographic coordinates which can be used with any SQL database.
 }
 \cventry{2017}{Maxent Phonotactic Learner}{}{}{\url{https://github.com/george-steel/maxent-learner}}{
     A tool for automatically inferring phonotactic grammars from a lexicon and using those grammars to generate random text, based on Hayes and Wilson's \textit{A Maximum Entropy Model of Phonotactics and Phonotactic Learning}. 
