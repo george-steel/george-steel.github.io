@@ -75,8 +75,8 @@
 \section{Employment History}
 
 \cventry{Apr 2021\,--\\Jun 2023}{Software Developer}{}{LoginID Canada}{}{\begin{itemize}
-    \item Created an OpenID Connect server supporting configurable multi-factor authentication methods, including passwordless FIDO2, SMS, TOTP, and others.
-    \item Led multiple refactoring projects to reduce tech debt and improve performance in related services, eventually architecting a move to a single-binary to reduce microservice overhead.
+    \item Created an OAuth2.1/OpenID Connect server supporting configurable multi-factor authentication methods, including passwordless FIDO2, SMS, TOTP, and others.
+    \item Led multiple refactoring projects to reduce tech debt and improve performance in related services, eventually architecting a move to a single-binary to reduce microservice overhead as well as helping to architect a rewrite of our core FIDO2 library in go.
     \item Created a custom high-performance database client library for our Go services based on sqlx and pgxpool. This allowed queries to be performed in all transactional modes supported by CockroachDB (including the fast batch mode unsupported by database/sql and existing ORMs) with the results automatically mapped into slices of structs.
 \end{itemize}}
 
