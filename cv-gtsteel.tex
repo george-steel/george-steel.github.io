@@ -30,7 +30,7 @@
 \firstname{George}
 \familyname{Steel}
 %\title{Resumé}                          % optional, remove / comment the line if not wanted
-\address{14 Cypress Ct.}{Aurora, ON, L4G 6S8}    % optional, remove / comment the line if not wanted
+%\address{14 Cypress Ct.}{Aurora, ON, L4G 6S8}    % optional, remove / comment the line if not wanted
 \phone{647-771-5414}                     % optional, remove / comment the line if not wanted
 \email{george.steel@gmail.com}                          % optional, remove / comment the line if not wanted
 %\social[github]{github.com/george-steel}
@@ -73,6 +73,11 @@
 
 
 \section{Employment History}
+
+\cventry{Dec 2024 - Feb 2025}{Software developer}{}{Pinkbot}{}{\begin{itemize}
+    \item Created a new, automated billing system that replaced a previous process involving multiple, time-consuming manual steps per client.
+    \item Helped to create a new authentication system for our merchant portal.
+\end{itemize}}
 
 \cventry{Apr 2021\,--\\Jun 2023}{Software Developer}{}{LoginID Canada}{}{\begin{itemize}
     \item Created an OAuth2.1/OpenID Connect identity provider supporting configurable multi-factor authentication methods, including passwordless FIDO2, SMS, TOTP, and others.
@@ -136,8 +141,12 @@
 
 
 \section{Releases and Publications}
+
+\cventry{2025}{pgxx}{}{}{\url{https://github.com/george-steel/pgxx}}{
+    A high-level Postgres client for go which supports ACID/serializable transactions as well as automatic mapping of query results and parameters to and from user-defined structs.
+}
 \cventry{2024}{Bowfishing Blitz}{}{}{\url{https://github.com/george-steel/bowfishing-blitz}}{
-    A tech demo/minigame which demonstrates my new graphical technique of clip-space planar refraction, used to render water with physically-accurate refraction without performance costs of raytracing.
+    A tech demo/minigame which demonstrates my new graphical technique of clip-space planar refraction, used to render water with physically-accurate refraction without having performance costs of raytracing.
 }
 \cventry{2021\,--\,present}{Contributions to Ink/Stitch}{}{}{\url{https://github.com/inkstitch/inkstitch}}{
     A tool used to program numerically-controlled embroidery machines. 
